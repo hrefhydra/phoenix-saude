@@ -611,6 +611,39 @@
       margin-bottom: 20px;
     }
 
+    .partners-marquee {
+      padding: 60px 0;
+      background: linear-gradient(180deg, #ffffff, #f4f9ff);
+      border-top: 3px solid var(--line);
+      border-bottom: 3px solid var(--line);
+    }
+
+    .partners-marquee .section-subtitle {
+      margin-bottom: 20px;
+    }
+
+    .partners-marquee .marquee::before {
+      background: linear-gradient(90deg, #f7fbff, transparent);
+    }
+
+    .partners-marquee .marquee::after {
+      background: linear-gradient(270deg, #f7fbff, transparent);
+    }
+
+    .partners-marquee .marquee-track {
+      --marquee-speed: 26s;
+    }
+
+    .partners-marquee .marquee-item {
+      width: clamp(160px, 20vw, 230px);
+      height: clamp(90px, 12vw, 130px);
+    }
+
+    .partners-marquee .marquee-item img {
+      object-fit: contain;
+      padding: 16px;
+    }
+
     .marquee {
       position: relative;
       overflow: hidden;
@@ -1463,6 +1496,77 @@
           <div class="audience-item">Clínicas médicas</div>
           <div class="audience-item">Consultórios</div>
           <div class="audience-item">Instituições públicas e privadas</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners-marquee" id="parceiros" aria-label="Galeria de parceiros">
+      <div class="container">
+        <h2 class="section-title">Parceiros</h2>
+        <p class="section-subtitle">
+          Marcas e fornecedores que reforçam nossa cadeia de suprimentos com qualidade e inovação.
+        </p>
+        <div class="marquee">
+          <div class="marquee-track">
+            <div class="marquee-set">
+              <figure class="marquee-item">
+                <img src="assets/parceiros/legalsolucoes.png" alt="Logo Legal Soluções" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-campinense.png" alt="Logo Campinense" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-cfernandes-color-300x70.png" alt="Logo C Fernandes" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-maquira.svg" alt="Logo Maquira" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-microdont.svg" alt="Logo Microdont" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo_fava_red.webp" alt="Logo Fava" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/mediCompany.jpg" alt="Logo Medi Company" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/Qestech.png" alt="Logo Qestech" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/Zeralog.png" alt="Logo Zeralog" loading="lazy" />
+              </figure>
+            </div>
+            <div class="marquee-set" aria-hidden="true">
+              <figure class="marquee-item">
+                <img src="assets/parceiros/legalsolucoes.png" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-campinense.png" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-cfernandes-color-300x70.png" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-maquira.svg" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo-microdont.svg" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/logo_fava_red.webp" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/mediCompany.jpg" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/Qestech.png" alt="" loading="lazy" />
+              </figure>
+              <figure class="marquee-item">
+                <img src="assets/parceiros/Zeralog.png" alt="" loading="lazy" />
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
     </section>
